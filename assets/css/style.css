@@ -1,0 +1,95 @@
+/* containing main title of the page */
+header {
+    display: flex;
+    color:rgb(250, 247, 247);
+    background-color:rgb(28, 27, 27);
+    font-style:oblique;
+    font-weight: 100;
+    border-radius: 25px;
+    justify-content: space-around;
+    position: flex;
+}
+
+header p{
+    font-size: 35px;
+}
+/* to take you to the '"about me", "contact me" and "work experience" sections */
+header ul{
+    display:flex;
+    list-style: none;
+}
+
+header ul li{
+    font-size: 25px;
+    margin: 10px;
+    margin-top: 21px;
+}
+
+main{
+    display: flex;
+}
+
+aside{
+    font-style: oblique;
+    color: rgb(252, 251, 251);
+    background-color: rgba(28, 27, 27);
+    width: 300px;
+    border-radius: 25px;
+    height: 800px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.content{
+    margin-top: 25px;
+    display: flex;
+    width: 100;
+    display: inline-block;
+    background-color: rgb(251, 250, 249);
+    border-radius: 25px;
+}
+
+aside section{
+    background-color: rgb(133, 133, 47);
+    font-style: oblique;
+    font-size: 30px;
+    background-color: rgb(250, 248, 248);
+}
+
+.fan{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 34px;
+}
+.Sihampicture{
+    background-color: rgb(223, 205, 255);
+    border-radius: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items:baseline;
+}
+
+.pictureaside{
+    display: flex;
+    align-items:baseline;
+    flex-wrap: nowrap;
+    float: left;
+}
+
+.about-me{
+    margin-top: 15px;
+    height: 300px;
+    color: black;
+}
+
+.floatRight{float:right;margin-left:20px}
